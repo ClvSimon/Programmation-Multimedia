@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://do72u7vjlw4mt"]
+
+[ext_resource type="Script" uid="uid://hpj2orcasyep" path="res://balle/Control_balle.gd" id="1_50dfo"]
+[ext_resource type="Texture2D" uid="uid://d1yg6s1lb31o1" path="res://balle/skin_balle_a.tres" id="1_eobpy"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_eobpy"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_eobpy"]
+
+[node name="Balle" type="RigidBody2D"]
+mass = 0.1
+physics_material_override = SubResource("PhysicsMaterial_eobpy")
+gravity_scale = 0.0
+continuous_cd = 1
+contact_monitor = true
+max_contacts_reported = 1
+script = ExtResource("1_50dfo")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_eobpy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_eobpy")

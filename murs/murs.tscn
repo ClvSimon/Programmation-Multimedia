@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://5otkgrexwybe"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_epiix"]
+size = Vector2(1192, 83)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jwlqx"]
+size = Vector2(107.5, 1057)
+
+[node name="Murs" type="StaticBody2D"]
+
+[node name="Mur-haut" type="CollisionShape2D" parent="."]
+position = Vector2(575, -41.5)
+shape = SubResource("RectangleShape2D_epiix")
+
+[node name="Mur-droite" type="CollisionShape2D" parent="."]
+position = Vector2(1205, 528)
+shape = SubResource("RectangleShape2D_jwlqx")
+
+[node name="Mur-gauche" type="CollisionShape2D" parent="."]
+position = Vector2(-54, 528)
+shape = SubResource("RectangleShape2D_jwlqx")

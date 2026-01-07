@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://b8gdrejq8m5an"]
+
+[ext_resource type="Script" uid="uid://c40k72votweg2" path="res://raquette/raquette.gd" id="1_8wwvb"]
+[ext_resource type="Texture2D" uid="uid://cby4cb1jp2170" path="res://raquette/skin_raquette_a.tres" id="1_w6mu3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w6mu3"]
+size = Vector2(64, 20)
+
+[node name="Raquette" type="CharacterBody2D"]
+motion_mode = 1
+wall_min_slide_angle = 0.0
+script = ExtResource("1_8wwvb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_w6mu3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_w6mu3")
+debug_color = Color(0.25050277, 0.58487386, 0.68584293, 0.41960785)

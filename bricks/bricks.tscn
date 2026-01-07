@@ -1,0 +1,432 @@
+[gd_scene load_steps=4 format=3 uid="uid://xnuatl4dvlel"]
+
+[ext_resource type="Texture2D" uid="uid://bll5jv34mju08" path="res://bricks/Bricks1.tres" id="1_m6s0d"]
+[ext_resource type="Script" uid="uid://cea73gptnmawc" path="res://bricks/static_body_2d.gd" id="3_r86sl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m6s0d"]
+size = Vector2(70.5, 44)
+
+[node name="Bricks" type="Node2D"]
+
+[node name="Niveau1" type="Node2D" parent="."]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(9, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(83, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D2"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D2"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(157, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D3"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D3"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(231, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D4"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D4"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(305, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D5"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D5"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(379, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D6"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D6"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D7" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(453, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D7"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D7"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D8" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(527, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D8"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D8"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D9" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(601, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D9"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D9"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D10" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(675, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D10"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D10"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D11" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(749, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D11"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D11"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D12" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(823, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D12"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D12"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D13" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(897, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D13"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D13"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D14" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(971, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D14"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D14"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D15" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(1045, 49)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D15"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D15"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D16" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(9, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D16"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D16"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D17" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(83, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D17"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D17"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D18" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(157, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D18"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D18"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D19" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(231, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D19"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D19"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D20" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(305, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D20"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D20"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D21" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(453, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D21"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D21"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D22" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(527, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D22"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D22"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D24" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(675, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D24"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D24"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D25" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(749, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D25"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D25"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D26" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(823, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D26"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D26"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D27" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(897, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D27"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D27"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D23" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(601, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D23"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D23"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D28" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(971, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D28"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D28"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D29" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(1045, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D29"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D29"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[node name="StaticBody2D30" type="StaticBody2D" parent="Niveau1"]
+position = Vector2(379, 99)
+script = ExtResource("3_r86sl")
+
+[node name="Sprite2D" type="Sprite2D" parent="Niveau1/StaticBody2D30"]
+position = Vector2(49, 38.000004)
+scale = Vector2(2.1874998, 2.75)
+texture = ExtResource("1_m6s0d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Niveau1/StaticBody2D30"]
+position = Vector2(48.99997, 38)
+shape = SubResource("RectangleShape2D_m6s0d")
+
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D" to="Niveau1/StaticBody2D" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D2" to="Niveau1/StaticBody2D2" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D3" to="Niveau1/StaticBody2D3" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D4" to="Niveau1/StaticBody2D4" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D5" to="Niveau1/StaticBody2D5" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D6" to="Niveau1/StaticBody2D6" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D7" to="Niveau1/StaticBody2D7" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D8" to="Niveau1/StaticBody2D8" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D9" to="Niveau1/StaticBody2D9" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D10" to="Niveau1/StaticBody2D10" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D11" to="Niveau1/StaticBody2D11" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D12" to="Niveau1/StaticBody2D12" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D13" to="Niveau1/StaticBody2D13" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D14" to="Niveau1/StaticBody2D14" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D15" to="Niveau1/StaticBody2D15" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D16" to="Niveau1/StaticBody2D16" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D17" to="Niveau1/StaticBody2D17" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D18" to="Niveau1/StaticBody2D18" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D19" to="Niveau1/StaticBody2D19" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D20" to="Niveau1/StaticBody2D20" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D21" to="Niveau1/StaticBody2D21" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D22" to="Niveau1/StaticBody2D22" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D24" to="Niveau1/StaticBody2D24" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D25" to="Niveau1/StaticBody2D25" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D26" to="Niveau1/StaticBody2D26" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D27" to="Niveau1/StaticBody2D27" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D23" to="Niveau1/StaticBody2D23" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D28" to="Niveau1/StaticBody2D28" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D29" to="Niveau1/StaticBody2D29" method="_on_brick_destroyed"]
+[connection signal="brick_destroyed" from="Niveau1/StaticBody2D30" to="Niveau1/StaticBody2D30" method="_on_brick_destroyed"]

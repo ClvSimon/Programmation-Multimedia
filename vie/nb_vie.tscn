@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://jcs0klh3knff"]
+
+[ext_resource type="Script" uid="uid://dsoxtwrpeuo83" path="res://vie/vies.gd" id="1_o5g16"]
+
+[node name="NbVie" type="CanvasLayer"]
+
+[node name="Vies" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+script = ExtResource("1_o5g16")

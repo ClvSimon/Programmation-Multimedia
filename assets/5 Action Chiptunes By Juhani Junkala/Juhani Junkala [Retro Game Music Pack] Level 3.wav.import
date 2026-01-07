@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dlg82u0cp8pfy"
+path="res://.godot/imported/Juhani Junkala [Retro Game Music Pack] Level 3.wav-de4e4b09b2d8a8bed1f22863d1195943.sample"
+
+[deps]
+
+source_file="res://assets/5 Action Chiptunes By Juhani Junkala/Juhani Junkala [Retro Game Music Pack] Level 3.wav"
+dest_files=["res://.godot/imported/Juhani Junkala [Retro Game Music Pack] Level 3.wav-de4e4b09b2d8a8bed1f22863d1195943.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
