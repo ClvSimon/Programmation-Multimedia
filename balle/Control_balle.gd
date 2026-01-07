@@ -26,7 +26,8 @@ func lancer_balle():
 	sleeping = false
 	
 	var direction_x = randf_range(-0.5, 0.5)
-	var direction_y = 1 if randf() < 0.5 else -1
+	var direction_y = -1  # toujours vers le haut
+	
 	var direction_depart = Vector2(direction_x, direction_y).normalized()
 	
 	apply_central_impulse(direction_depart * vitesse_max)

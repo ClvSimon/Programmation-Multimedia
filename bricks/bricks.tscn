@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://xnuatl4dvlel"]
+[gd_scene load_steps=5 format=3 uid="uid://xnuatl4dvlel"]
 
 [ext_resource type="Texture2D" uid="uid://bll5jv34mju08" path="res://bricks/Bricks1.tres" id="1_m6s0d"]
+[ext_resource type="Script" uid="uid://dy1im1fhbvicl" path="res://bricks/niveau_1.gd" id="1_r86sl"]
 [ext_resource type="Script" uid="uid://cea73gptnmawc" path="res://bricks/static_body_2d.gd" id="3_r86sl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m6s0d"]
@@ -9,6 +10,7 @@ size = Vector2(70.5, 44)
 [node name="Bricks" type="Node2D"]
 
 [node name="Niveau1" type="Node2D" parent="."]
+script = ExtResource("1_r86sl")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Niveau1"]
 position = Vector2(9, 49)
